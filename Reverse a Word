@@ -1,0 +1,4 @@
+user=input("Enter a string: ")
+for char in range(len(user)-1,-1,-1):
+    print(user[char],end="") 
+print("\n")
