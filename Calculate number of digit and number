@@ -1,0 +1,9 @@
+word=input("Enter the word: ")
+c=n=0
+for i in word:
+    if i.isdigit():
+        c+=1
+    else:
+        n+=1
+print("Number of Character: ", n,"\n")
+print("Number of Digits: ",c)
